@@ -4,4 +4,4 @@ COPY app /usr/share/app
 WORKDIR /usr/share/app
 RUN pip3 install --no-cache-dir -r requirements.txt --break-system-packages
 EXPOSE 5000
-CMD [ "python3", "app.py"]
+CMD [ "python3", "app.py"] 
